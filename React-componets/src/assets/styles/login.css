@@ -1,0 +1,36 @@
+.bg-img{
+    background-image: url('/assets/img/login-page.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-control, .form-select {
+    padding: 15.5px 14px;
+    border-radius: 8px;
+    color: rgb(18, 25, 38);
+    border: 1px solid #dddddd;
+}
+.text-blue{
+    color: #1C75BC;
+}
+.btn-submit-login {
+    background-color: #1c75bc;
+    color: white;
+    border: #1c75bc;
+}
+.btn-submit-login:hover{
+    background-color: #1c75bc;
+    color: white;
+    border:#1c75bc;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+}
+.height-reset{
+    height: 100vh;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
+.border-radius-login{
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+}

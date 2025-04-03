@@ -1,0 +1,42 @@
+.traffic-light {
+    width: 150px;
+    height: 300px;
+    background-color: #333;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.light {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #222; /* Dim by default */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease; /* Smooth transition */
+}
+
+/* Default dimmed colors */
+.red { background-color: #4d0000; }
+.yellow { background-color: #4d4d00; }
+.green { background-color: #004d00; }
+
+/* Active light */
+.lit.red { background-color: red; }
+.lit.yellow { background-color: yellow; }
+.lit.green { background-color: green; }
+
+.pole {
+    width: 20px;
+    height: 200px;
+    background-color: #333;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
